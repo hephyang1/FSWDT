@@ -1,0 +1,64 @@
+< > => Opening Tag
+</ > => Closing Tag
+< /> => Self Closing Tag
+
+
+<img> => image opening tag
+</img> => image closing tag
+
+
+<img /> => image self closing tag
+<br /> => break tag
+<br></br>
+
+<hr /> => horizontal line tag
+<hr></hr>
+
+
+
+<h1> => h1 opening tag
+</h1> => h1 closing tag
+
+<h1>rohan kinnal</h1>
+
+<p> => paragraph opening tag
+</p> => para closing tag
+
+
+<h1> rohan </h1>
+
+
+
+
+<html>
+	<head>
+		<title>day - 01</title>
+	</head>
+	<body>
+		<h1>hey its my heading tag</h1>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+Offline Editors:
+	>> NotePad
+	>> NotePad++
+	>> Sublime
+	>> Open Brackets
+	>> VS Code 
+
+
+
+Online Editors:
+	>> CodeSpace
+	
+	>> CodeSandBox
+
+

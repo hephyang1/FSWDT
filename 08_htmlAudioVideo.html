@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <!-- image -->
+        <!-- <img src="https://us02st1.zoom.us/static/6.3.13506/image/new/ZoomLogo.png" alt="zoom logo" height="80"/> -->
+        <!-- <img src="./imgs/img1.png" alt="image over here" height="120" width="620"/> -->
+
+        <!-- Video tag -->
+        <!-- .ogg n .mp4 -->
+        <!-- <video controls autoplay muted loop>
+            <source src="./audio-video/sample.mp4" type="video/mp4"/>
+        </video> -->
+        <!-- Audio Tag -->
+        <audio controls autoplay muted loop>
+            <!-- <source src="./audio-video/file_example_MP3_700KB.mp3" type="audio/mp3"/> -->
+            <source src="./audio-video/file_example_OOG_1MG.ogg" type="audio/ogg"/>
+        </audio>
+
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/>
+
+        <!-- forms in html -->
+        <form action="onSubmit">
+            <label>Full Name</label>
+            <input type="text" placeholder="please enter your username " required/>
+            <br/> <br/>
+            <label>Phone Num:</label> 
+            <input type="number" placeholder="enter ur phone num"/>
+            <br/><br/>
+            <label>Password: </label>
+            <input  placeholder="enter password" type="password" required/>
+            <br /><br />
+            <label>Email:</label>
+        <input type="email" placeholder="enter ur email" />
+        <br /><br />
+        <label>Gender:</label>
+        <input type="radio" name="gender" checked/> <label> Male </label>
+        <input type="radio" name="gender"/> <label> Female </label>
+        <input type="radio" name="gender"/> <label> Others </label>
+        <br /><br />
+        
+        <!-- ctrl+alt+downward key -->
+        <label>Select Interested Tech:</label>
+        <input type="checkbox" name="tech" checked/> <label> Java </label>
+        <input type="checkbox" name="tech" /> <label> CPP </label>
+        <input type="checkbox" name="tech" /> <label> C </label>
+        <input type="checkbox" name="tech" /> <label> Python </label>
+        <input type="checkbox" name="tech" checked/> <label> JavaScript </label>
+        <br/><br/>
+        <label>Comments:</label> <br/>
+        <textarea rows="10" cols="25" placeholder="enter something here"></textarea>
+        <br /><br />
+        <label>Select Your course here:</label>
+        <select >
+            <option value=" "> </option>
+            <option value="java">Java</option>
+            <option value="js">JavaScript</option>
+            <option value="py">Python</option>
+        </select>
+        <input type="submit" />
+        <input type="reset" />
+        <!-- <button>Submit</button> -->
+        <button>reset 2</button>
+        </form>
+
+        <br /><br /><hr />
+        <table >
+            <tr>
+                <td><label>UserName:</label></td>
+                <td><input type="text" placeholder="userName"/></td>
+            </tr>
+            <tr>
+                <td><label>Password:</label></td>
+                <td><input type="password" placeholder="password" /></td>
+            </tr>
+            <tr>
+                <td><label>Email:</label></td>
+                <td><input type="email" placeholder="emial"/></td>
+            </tr>
+            <tr>
+                <td><label>Phone Num:</label></td>
+                <td><input type="number" placeholder="phone num" /></td>
+            </tr>
+        </table>
+
+
+    </body>
+</html>    

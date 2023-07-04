@@ -1,0 +1,108 @@
+Web Development
+	>> Building/Developing + Testing + Host + Maintenance/Support
+
+
+SDLC (S/W Dev Life Cycle)
+>> WaterFall Model
+>> Agile Model
+>> Spiral Model
+>> Iterative Model
+>> RAD (Rapid Appln Dev)
+>> V-Shaped Model
+>> …
+	
+
+URL (Uniform Resource Locator):
+https://instagram.com
+
+https://education.devTown.edu/FullStack?Firstname=rohan&lastName=kinnal
+
+
+
+
+https : Protocol
+devTown : Server/Domain
+Education : Sub-Domain
+.edu : TLD (Top Level Domain)
+FullStack : path
+
+
+
+
+Protocol: Set of Rules/Instructions
+	https: hyper text transfer protocol secure
+	http: hyper text transfer protocol
+	Smtp: simple mail transfer protocol
+	Ftp: file transfer protocol
+	Tcp: Transmission Control Protocol
+	Udp: User Datagram Protocol
+	Ip: Internet Protocol
+
+
+https: SSL Certification
+	Secure Socket Layer Certification
+
+
+
+Domain: Unique Identifier || Server
+
+
+Google
+
+Subdomain:
+Gmeet 
+Google maps
+Google drive
+Google assistance
+Google files
+Googlecolab
+Gmail
+Googlesheet
+Gpay
+…
+
+
+Amazon- Domain
+Sub Domains: 
+eKart Appln
+aws
+
+
+
+8050279120
+
+
+
+
+TLD (Top Level Domain):
+Amazon.in
+Amazon.edu
+Amazon.com
+Amazon.uk
+Amazon.org
+Amazon.net
+
+
+
+https://amazon.com
+https://amazon.in
+
+
+
+Amazon.in    (Official Website)
+
+Amazon.uk (Un-Official Website)
+
+
+Real Time Example:
+	Bisleri
+	Bilseri
+	Besleri
+	bysleri
+
+
+
+
+
+
+

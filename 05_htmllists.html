@@ -1,0 +1,112 @@
+
+<!-- 
+    Lists
+        >> Ordered List
+        >> Unordered List
+        >> Description/Definition List
+-->
+<!-- 
+    Attributes: 
+        >> It is something which provides certain amount of additional information to those specific tags
+ -->
+ <!DOCTYPE html>
+ <html>
+     <head>
+         <title>Lists in HTML</title>
+     </head>
+     <body>
+         <h4>Lists in HTML:</h4>
+         <hr/>
+         <h5>1. Ordered List</h5>
+         <!-- Ordered List -->
+         <!-- type = 1 (default) or a or A or i or I -->
+         <ol type="a" start="5">
+             <!-- list items -->
+             <li>Java</li>
+             <li>MERN</li>
+             <li>Python</li>
+             <li>Data Science</li>
+         </ol>
+         <hr />
+         <h5>2. Unordered List</h5>
+         <!-- type = disc (default) or circle or square  -->
+         <ul type="rectangle">
+             <li>Java</li>
+             <li>Web Dev</li>
+             <li>AI</li>
+             <li>ML</li>
+         </ul>
+         <hr />
+         <h4>Nested List</h4>
+         <!-- Nested List -->
+         <ol>
+             <li>outer list 1</li>
+             <li>outer list 2</li>
+             <ol>
+                 <li>Inner list 1</li>
+                 <li>Inner list 2</li>
+                 <ol>
+                     <li>Inner to Inner List 1</li>
+                 </ol>
+             </ol>
+             <li>outer list 3</li>
+             <li>outer list 4</li>
+             <li>outer list 5</li>
+         </ol>
+ 
+ <hr />
+         <ul type="square">
+             <li>outer list 1</li>
+             <li>outer list 2</li>
+             <ul type="square">
+                 <li>Inner list 1</li>
+                 <li>Inner list 2</li>
+                 <ul type="square">
+                     <li>Inner to Inner List 1</li>
+                 </ul>
+             </ul>
+             <li>outer list 3</li>
+             <li>outer list 4</li>
+             <li>outer list 5</li>
+         </ul>
+ 
+         <hr />
+         <ol>
+             <li>Outer Orderd List 1</li>
+             <li>Outer Orderd List 2</li>
+             <li>Outer Orderd List 3</li>
+             <ul>
+                 <li>Inner Unorderd List 1</li>
+                 <li>Inner Unorderd List 2</li>
+                 <ol>
+                     <li>demo</li>
+                     <li>demo</li>
+                     <ul>
+                         <li>demo 1</li>
+                         <li>demo 2</li>
+                     </ul>
+                 </ol>
+                 <li>Inner Unorderd List 3</li>
+             </ul>
+             <li>Outer Orderd List 4</li>
+             <li>Outer Orderd List 5</li>
+             <li>Outer Orderd List 6</li>
+         </ol>
+         <!-- 3. Description List / Definition List -->
+         <h4>3. Description List / Definition List</h4>
+         <!-- dl: description list -->
+         <dl>
+             <!-- dt: description term -->
+             <dt>Java</dt>
+             <!-- dd: description definition -->
+             <dd>Its OOPs lang</dd>
+             <dt>JS</dt>
+             <dd>Its a scripting lang</dd>
+             <dt><b><i>CSS</i></b></dt>
+             <dd>Its a styling lang</dd>
+             <dt>HTML</dt>
+             <dd>Its a markup lang</dd>
+         </dl>
+     </body>
+ </html>
+ 
